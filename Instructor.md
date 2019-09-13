@@ -8,7 +8,8 @@ This is a CloudFormation template for the IAM role that needs to be used by the 
 
 Sagemaker Service Role (Cloudformation Template)
 
-```{
+```
+{
 	"Resources": {
 		"SageMakerLab": {
 			"Type": "AWS::IAM::Role",
@@ -59,7 +60,8 @@ Sagemaker Service Role (Cloudformation Template)
 ### Sagemaker User Policy:
 These are the IAM permissions that should be setup for every user.
 
-```{
+```
+{
     "Version": "2012-10-17",
     "Statement": [
         {
